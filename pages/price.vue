@@ -1,16 +1,17 @@
 <script>
   export default {
-		async asyncData({ $axios }) {
-			const url = "/api/hello";
-			const response = await $axios.$get(url);
-			return {
-				posts: response
-			};
-		}
+		// async asyncData({ $axios }) {
+		// 	const url = "/api/hello";
+		// 	const response = await $axios.$get(url);
+		// 	return {
+		// 		posts: response
+		// 	};
+		// }
 	};
 </script>
 <template>
   <div>
-    <p>{{ posts }}</p>
+    <!-- <p>{{ posts }}</p> -->
+    <p>Hellloooo</p>
   </div>
 </template>
