@@ -49,7 +49,7 @@ export default {
 
   proxy: {
     '/api': {
-      target: 'http://sample-backend-app-service:8080'
+      target: 'http://localhost:8080'
     },
   },
 }
