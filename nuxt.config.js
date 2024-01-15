@@ -51,4 +51,8 @@ export default {
   proxy: {
     '/api': 'http://localhost:8080',
   },
+
+  server: {
+    host: "0.0.0.0"
+  },
 }
