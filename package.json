@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "HOST=127.0.0.1 nuxt",
+    "dev": "nuxt --host 0.0.0.0",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "HOST=127.0.0.1 nuxt generate"
+    "generate": "nuxt generate --host 0.0.0.0"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
